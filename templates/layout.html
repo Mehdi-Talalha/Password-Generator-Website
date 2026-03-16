@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Generator App</title>
+    <meta name="descrition" content="Random Password Generator , Create passwords for free to keep your accounts safe">
+    <title>Password Generator App - Create strong password for free</title>
+    <link rel="icon" href="../static/castle-image.png">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-<!-- 
+
+    <!-- this is the main main of the web page -->
+
     <main class="page">
+        
+        <!-- the website will be devided to two section the header section that containe one big header and a small paragraph -->
+
+        <!-- this thte header section containe h1 and p as headers -->
         <section class="header-content">
-            <div class="title">
-                <h1>Random pa</h1>
+            <!-- these are the comonents of the header section -->
+            <div class="header_big-header">
+                <h1>Random Password Generator</h1>
+            </div>
+
+            <div class="header_sub-header">
+                <p>create safe password for free to keep your accounts safe from Hackers</p>
             </div>
         </section>
-    </main> -->
+
+        <!-- the main content devided to two section the right one and the left one -->
+        <section class="main-content">
+            <div class="right-side-content">
+                <div class="castle-image-part">
+                    <img src="../static/castle-image.png" alt="this is the castle image">
+                </div>
+            </div>
+            <div class="left-side-content">
+                {% block body %}{% endblock %}
+            </div>
+        </section>
+
+        <!-- i devided the web site for the preview image exist in the static folder -->
+
+
+    </main>
     
-    {% block body %}{% endblock %}
 </body>
 </html>
