@@ -26,7 +26,7 @@ def index():
                 password = Generate_password(length)
                 return render_template("index.html", password=password, length=length)
             except ValueError:
-                return render_template("index.html", error="Please enter a valid number")
+                return render_template("index.html",   error="Please enter a valid number")
     return render_template("index.html")
 
 if __name__ == "__main__":
