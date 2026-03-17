@@ -1,10 +1,21 @@
-📋 **TODO**
+<div align="center">
 
-Here is the features that i want to add to the project for the moment
+# Features
 
+</div>
 
-🚀 New Features
+# Mehdi's Work:
 
-- [ ] make the website design better.
-_ [ ] copy password feature == button
+## 16.03.2026
+- i built in this day the **MVP Feature** 
+- functionaliy = "True"
+- simple UI 
+
+<img src="/static/MVP-Feature.png" alt="how the MVP Feature look like">
+
+- handle missing length and ValueError
+
+# Ashub's Work:
 - 
+-
+-
