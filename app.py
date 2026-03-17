@@ -8,6 +8,8 @@ def Generate_password(length):
     # return the random password
     return ''.join(random.choice(CHARACTERS) for _ in range(length))
 
+# to run the server: Type this command in the terminal ==> flask --app app.py run --debug --port 5001
+
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
