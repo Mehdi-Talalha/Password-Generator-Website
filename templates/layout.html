@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descrition" content="Random Password Generator , Create passwords for free to keep your accounts safe">
     <title>Password Generator App - Create strong password for free</title>
-    <link rel="icon" href="../static/castle-image.png">
-    <link rel="stylesheet" href="../static/style.css">
+    <meta name="descrition" content="Random Password Generator , Create passwords for free to keep your accounts safe">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <!-- for good look in if someone shared the web app in social medio -->
+    <meta property="og:title" content="Password Generator" />
+    <meta property="og:description" content="Generate strong and secure passwords instantly." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="{{ url_for('static', filename='icon.png') }}" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+    <!-- Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body>      
+<body>
     <!-- this is the main main of the web page -->
     <main class="page">
-        
         <!-- the website will be devided to two section the header section that containe one big header and a small paragraph -->
 
         <!-- this thte header section containe h1 and p as headers -->
@@ -38,6 +47,22 @@
             </div>
         </section>
     </main>
-    
+     <!-- this is the footer of the page -->
+    <footer>
+    <p>&copy; 2026 Password Generator. Built by <strong>Mehdi Talalha</strong> & <strong>Ashab Shafqat</strong>.</p>
+    <p>Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" class="footer-link" rel="noopener noreferrer"><strong>MIT License</strong></a>.</p>
+
+    <div class="social-links">
+        <a href="https://github.com/Mehdi-Talalha" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://instagram.com/##########" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/https://www.linkedin.com/in/mehdi-talalha-0020b93b7//"  target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+    </footer>       
 </body>
 </html>

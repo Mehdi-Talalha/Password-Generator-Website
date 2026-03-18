@@ -235,3 +235,43 @@ input[type="submit"]:hover {
     padding: 1rem;
   }
 }
+
+/* footer style */
+footer {
+  text-align: center;
+  padding: 20px 24px;
+  margin-top: auto;
+  color: white;
+  background-color: #3b82f6;
+}
+
+footer p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a {
+  font-size: 22px;
+  transition: transform 0.2s, color 0.2s;
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: translateY(-3px);
+}
+
+.social-links a .fa-github:hover { color: #333; }
+.social-links a .fa-instagram:hover { color: #e1306c; }
+.social-links a .fa-linkedin:hover { color: #0077b5; }
