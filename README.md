@@ -35,7 +35,11 @@ pip install -r requirements.txt
 flask --app app.py run --debug --port 5001
 ```
 
-## License : **MIT**
+## 📃License : **MIT**
 
 ## 👨‍💻Authors
 - **Mehdi Talalha** && **Ashab Shafqat**
+ 
+<br>
+
+<img src="static/bottom-README-image.png">
