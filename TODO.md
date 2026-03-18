@@ -20,7 +20,7 @@
 
 ## 18.03.2026
 - add footer in the bottom of the web page
-- 
+- Clean up the README.md file
 
 ---
 

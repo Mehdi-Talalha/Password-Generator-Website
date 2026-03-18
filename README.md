@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 Password Generator Website
+# 🔐 Password Generator Web app
 
 This is a Random password generator web app that generate strong and safe passwords.
 
