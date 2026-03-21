@@ -12,7 +12,7 @@ This is a Random password generator web app that generate strong and safe passwo
 - Generate Random passwords
 - You can chose type of characters used in your password
 
-<img src="static/images/castle-image.png" align="right" width="350" alt="castle image">
+<img src="https://github.com/Mehdi-Talalha/Password-Generator-Web-app/blob/main/static/images/castle-image.png" align="right" width="350" alt="castle image">
 
 
 ## 💼 Tech Stack
