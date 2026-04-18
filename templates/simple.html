@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        input, button { padding: 10px; margin: 5px; }
+        .result { margin-top: 20px; padding: 10px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form method="post">
+            <input type="text" name="length" placeholder="Enter password length" required>
+            <br>
+            <label>
+                <input type="checkbox" name="digits" checked> Digits
+            </label>
+            <label>
+                <input type="checkbox" name="ascii_letters" checked> Letters
+            </label>
+            <label>
+                <input type="checkbox" name="punctuation" checked> Symbols
+            </label>
+            <br><br>
+            <button type="submit">Generate Password</button>
+        </form>
+        
+        {% if password %}
+        <div class="result">
+            <h3>Generated Password:</h3>
+            <p style="font-size: 18px; font-weight: bold; word-break: break-all;">{{ password }}</p>
+        </div>
+        {% endif %}
+        
+        {% if error %}
+        <div class="result" style="background: #ffe6e6; color: red;">
+            <strong>Error:</strong> {{ error }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
